@@ -90,6 +90,22 @@
 
 	}
 
+	&__btn-ok {
+
+		width: 100%;
+		margin-top: 60px;
+
+	}
+
+	&__logo {
+
+		margin: 24px auto;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+	}
+
 }
 
 .modal-show {

@@ -213,7 +213,7 @@
 
 					</div>
 
-					<button class="transction-submitted__btn modal__close btn" type="button">
+					<button class="modal__btn-ok modal__close btn" type="button">
 						Close
 					</button>
 
@@ -430,6 +430,81 @@
 				</form>
 
 			</div>
+
+			<div class="modal__item modal__item--artwork-details">
+
+				<form class="form-vote-new form-app" action="/" novalidate="novalidate">
+
+					<h3 class="modal__title h3">
+						Artwork Details
+					</h3>
+
+					<div class="form-vote-new__img">
+
+						<picture>
+
+							<source srcset="/img/artwork-list/modal.webp 1x, /img/artwork-list/modal@2x.webp 2x" type="image/webp">
+							<source srcset="/img/artwork-list/modal.jpg 1x, /img/artwork-list/modal@2x.jpg 2x">
+
+							<img src="/img/artwork-list/modal@2x.jpg" alt="Starry Night" loading="lazy" width="180" height="115">
+
+						</picture>
+
+					</div>
+
+					<table class="form-vote__table">
+
+						<tr>
+							<th>
+								Figure:
+							</th>
+							<td>
+								Donald Trump
+							</td>
+						</tr>
+
+						<tr>
+							<th>
+								Name:
+							</th>
+							<td>
+								Pic of Donald
+							</td>
+						</tr>
+
+						<tr>
+							<th>
+								Artist:
+							</th>
+							<td>
+								Van Gogh
+							</td>
+						</tr>
+
+						<tr>
+							<th>
+								Details:
+							</th>
+							<td>
+								Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+							</td>
+						</tr>
+
+					</table>
+
+					<div class="form-app__submit">
+
+						<button class="btn btn--outline btn--medium modal__close" type="button">
+							OK
+						</button>
+
+					</div>
+
+				</form>
+
+			</div>
+
+{% include "template/modal/successfully-proposed.html" %}
 
 			<div class="modal__item modal__item--gallery">
 
