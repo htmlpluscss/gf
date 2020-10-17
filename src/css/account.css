@@ -18,6 +18,12 @@
 
 		}
 
+		@media ($xsWidth) {
+
+			margin: 28px -10px;
+
+		}
+
 	}
 
 	.artwork-list {

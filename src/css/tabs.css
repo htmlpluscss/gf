@@ -10,6 +10,7 @@
 		@media ($smWidth) {
 
 			overflow-x: auto;
+			overflow-y: hidden;
 			scroll-snap-type: x mandatory;
 
 		}
@@ -34,6 +35,12 @@
 		& + & {
 
 			margin-left: 36px;
+
+			@media ($smWidth) {
+
+				margin-left: 18px;
+
+			}
 
 		}
 
