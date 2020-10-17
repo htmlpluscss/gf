@@ -8,15 +8,18 @@
 
 	{
 		title : "The Starry Night",
-		img   : "starry-night"
+		img   : "starry-night",
+		badge : "2"
 	},
 	{
 		title : "Portrait of the ... ",
-		img   : "portrait"
+		img   : "portrait",
+		badge : "1"
 	},
 	{
 		title : "Wheatfield with ... ",
-		img   : "wheatfield"
+		img   : "wheatfield",
+		badge : "3"
 	}
 
 ] %}
@@ -33,6 +36,12 @@
 								<img src="/img/artwork-list/{{ item.img }}@2x.jpg" alt="{{ item.title }}" loading="lazy" width="264" height="170">
 
 							</picture>
+
+							<span class="artwork-list__badge">
+								<b class="artwork-list__badge-inner is-number-{{ item.badge }}">
+									{{ item.badge }}
+								</b>
+							</span>
 
 						</a>
 
