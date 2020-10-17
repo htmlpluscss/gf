@@ -3,10 +3,22 @@
 
 	margin: 36px 0;
 
+	@media ($smWidth) {
+
+		margin: 24px 0;
+
+	}
+
 	.h1 {
 
 		margin-top: 56px;
 		text-align: center;
+
+		@media ($smWidth) {
+
+			margin-top: 24px;
+
+		}
 
 	}
 
