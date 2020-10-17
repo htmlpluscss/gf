@@ -10,7 +10,6 @@
 	.loading {
 
 		opacity: 1;
-		transition: none;
 
 	}
 
@@ -25,7 +24,7 @@
 	left: 0;
 	right: 0;
 	bottom: 0;
-	transition: var(--transitionDefault);
+	transition: opacity var(--transitionDefault);
 
 	display: flex;
 	flex-direction: column;
