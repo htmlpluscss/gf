@@ -4,8 +4,15 @@
 
 	&__nav {
 
-		display: flex;
 		border-bottom: 1px solid rgba(255, 255, 255, .1);
+		display: flex;
+
+		@media ($smWidth) {
+
+			overflow-x: auto;
+			scroll-snap-type: x mandatory;
+
+		}
 
 	}
 
@@ -17,6 +24,12 @@
 		padding: 0 10px;
 		color: rgba(255, 255, 255, .5);
 
+		@media ($smWidth) {
+
+			scroll-snap-align: start;
+			scroll-snap-stop: always;
+
+		}
 
 		& + & {
 
