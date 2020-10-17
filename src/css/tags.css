@@ -1,0 +1,44 @@
+
+.tags {
+
+	margin: 28px -6px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+	li {
+
+		margin: 8px 6px;
+
+	}
+
+	a {
+
+		display: block;
+		font-size: 16px;
+		line-height: 39px;
+		padding: 0 24px;
+		text-decoration: underline;
+		color: #fff;
+		border-radius: 20px;
+		background-color: rgba(255, 255, 255, 0.1);
+
+		@media ($smWidth) {
+
+			font-size: 14px;
+
+		}
+
+		@media ($desktop) {
+
+			&:hover {
+
+				text-decoration: none;
+
+			}
+
+		}
+
+	}
+
+}

@@ -19,8 +19,8 @@
 	}
 
 	&__item {
-
-		background-color: #fff;
+outline:1px solid red;
+		/* background-color: #fff; */
 		box-shadow: 0px 4px 34px rgba(31, 31, 31, 0.13);
 		border-radius: 12px;
 		width: 336px;
@@ -238,6 +238,27 @@
 				}
 
 			}
+
+		}
+
+	}
+
+	&__redeemed {
+
+		text-align: center;
+		font-size: 14px;
+		color: #bdbdbd;
+		margin: 24px 0 10px;
+
+		&-green {
+
+			color: #6FCF97;
+
+		}
+
+		&-yellow {
+
+			color: var(--yellow);
 
 		}
 

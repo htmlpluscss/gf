@@ -1,0 +1,33 @@
+{% set title = "Available Artworks" %}
+
+{% set description = "" %}
+
+{% set urlPage = "available-artworks" %}
+
+{% extends "template/base.html" %}
+
+{% block content %}
+
+	<article class="center">
+
+		<div class="head-back">
+
+			<button class="btn btn--back" type="button">
+				<svg width="24" height="24" viewBox="0 0 24 24">
+					<path d="M3.83 11H16v2H3.83l5.36 5.36-1.41 1.42L0 12l7.78-7.78 1.41 1.42L3.83 11z"/>
+				</svg>
+				Back
+			</button>
+
+			<h1 class="h1">
+				{{ title }}
+			</h1>
+
+		</div>
+
+{% include "available-artworks/tags.html" %}
+{% include "available-artworks/artwork.html" %}
+
+	</article>
+
+{% endblock %}
