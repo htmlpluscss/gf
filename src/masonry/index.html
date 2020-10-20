@@ -4,13 +4,16 @@
 
 {% set urlPage = "masonry" %}
 
-{% set state = "main" %}
-
 {% extends "template/base.html" %}
 
 {% block content %}
 
 <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+	<article class="center">
+
+{% include "available-artworks/tags.html" %}
+
+	</article>
 
 <div class="grid">
 
